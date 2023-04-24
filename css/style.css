@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+/* Estilo principal */
+html, body{
+    font-family: 'Sedgwick Ave Display';
+    font-size: 16px;
+    line-height: 1.5;    
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 1rem;
+    /* margin: 10px 0; */
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    line-height: 1.7;
+}
+a{
+    text-decoration: none;
+}
+
+/* utilidades */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.txt-large{
+    font-size: 1.2rem;
+}
+.txt-light{
+    color: aquamarine;
+}
+
+.bk-main{
+    background:url('https://source.unsplash.com/random/900×700/?fruit');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+/* Main Header */
+#mainheader{
+    height: 100vh;
+}
+/* NavBAr */
+.navbar{
+    height: 80px;
+    background-color: cadetblue;
+}
+
+.navbar a {
+    /* opcional */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content:space-around;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li{
+    margin-left: 20px;
+}
