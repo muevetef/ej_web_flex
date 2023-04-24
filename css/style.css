@@ -57,14 +57,54 @@ a{
 .txt-light{
     color: aquamarine;
 }
-
+.display-1{
+    font-size: 3.2;
+    font-weight: 900;
+}
+.p-1{
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.p-2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.btn{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    border-radius: 4px;
+}
+.btn-dark{
+    background-color: rgb(255, 162, 95);
+    border: 2px solid  rgb(244, 105, 6);
+    color: #631313;
+}
+.btn-dark:hover{
+    background-color:#631313;
+    border: 2px solid  rgb(244, 105, 6);
+    color: rgb(255, 162, 95)
+}
 .bk-main{
     background:url('https://source.unsplash.com/random/900×700/?fruit');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
 }
-
+.bk-color{
+    background: rgb(247, 181, 134)
+}
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.flex-3-box{
+    margin:20px 10px;
+    flex: 1;/* Aqui no es necesario */
+}
 /* Main Header */
 #mainheader{
     height: 100vh;
@@ -72,7 +112,8 @@ a{
 /* NavBAr */
 .navbar{
     height: 80px;
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0.646);
+    /* opacity: 0.5; */
 }
 
 .navbar a {
@@ -88,4 +129,37 @@ a{
 }
 .navbar ul li{
     margin-left: 20px;
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Showecase */
+#showcase{
+    text-align: center;
+}
+#showcase a{
+    margin-top: 20px;
+}
+
+/* Projects */
+
+/* Benefeits */
+#benefits .flex-3-box {
+    text-align: center;
+    }
+#benefits .flex-3-box i{
+font-size: 4rem;
+}
+
+#benefits .benefits-secondary{
+padding-top: 20px;
+text-align:center;
+}
+
+/* footer */
+#mainfooter{
+    text-align: center;
+    padding: 30px;
 }
