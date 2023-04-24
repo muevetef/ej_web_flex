@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .is-required::after{
+            content: '*';
+            color:red;
+            padding-left: 2px;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #333;
+            color: white;
+        }
+        
+        header{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header::before{
+            content: '';
+            background: url('https://source.unsplash.com/random/?fruit') no-repeat center center/cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0; 
+            left:0;
+            z-index: -1;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <!-- <label class="is-required" for="nombre">Nombre</label>
+    <input id="nombre" type="text"> -->
+    <header>
+        <h1>Hello Alejandro</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nisi odio, nesciunt quos quam cupiditate esse enim quis cum, officia placeat in molestias aut ut dolorem voluptatibus aliquid ullam eveniet.</p>
+    </header>
+
+    <section>
+        <h3>Lorem ipsum y algo más...</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi, sed debitis veritatis ipsum dignissimos ut, molestiae animi vitae ullam dolor dolorem recusandae cupiditate officia ratione numquam nam impedit veniam?</p>
+    </section>
+</body>
+</html>
