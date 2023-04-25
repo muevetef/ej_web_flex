@@ -1,3 +1,16 @@
-.flex-3{
-    flex-direction: column;
+.flex-3 {
+  flex-direction: column;
+}
+
+.navbar .container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar .container ul {
+  align-self: center;
+}
+.navbar .logo {
+  font-size: xx-large;
 }
