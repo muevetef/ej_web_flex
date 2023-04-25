@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
 /* reset */
+:root{
+    --mi-variable-de-color: antiquewhite;
+    --ancho-maximo:900px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +18,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   scroll-behavior: smooth;
-  color: antiquewhite;
+  color: var(--mi-variable-de-color);
 }
 h1 {
   font-size: 2.5rem;
@@ -54,7 +59,7 @@ a:hover {
 
 /* utilidades */
 .container {
-  max-width: 900px;
+  max-width: var(--ancho-maximo);
   margin: 0 auto;
   padding: 10px;
 }

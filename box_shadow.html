@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        html,body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            display: flex;
+        }
+        .box{
+            padding: 1rem;
+            margin: 1rem;
+            background-color: coral;
+            color: aliceblue;
+            /* offset-x | offset-y | color */
+            box-shadow:  10px 10px teal;
+            /* offset-x | offset-y | blur-radius | color */
+            box-shadow:  5px 5px 20px teal;
+            /*Valores negativos*/
+            box-shadow:  -5px -5px 20px teal;
+            /* offset-x | offset-y | blur-radius | spread-radius | color */
+            box-shadow:  6px 6px 20px 1px rgba(0, 0, 0,0.7);
+            /* sombra interior */
+            box-shadow: inset -5px -5px 5px teal;
+            /* Sombra multiples */
+            box-shadow: 3px 3px teal, -3px -3px olive;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Xistes malos no, porfavor</h3>
+            <p>Aqui va uno, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta porro. Tempora, placeat, mollitia ipsa saepe veniam laudantium facilis recusandae voluptatibus error facere voluptate expedita molestias praesentium qui animi soluta.</p>
+        </div>
+        <div class="box">
+            <h3>Xistes si, porfavor</h3>
+            <p>Aqui va uno, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta porro. Tempora, placeat, mollitia ipsa saepe veniam laudantium facilis recusandae voluptatibus error facere voluptate expedita molestias praesentium qui animi soluta.</p>
+        </div>
+        <div class="box">
+            <h3>Xistes con Ch también</h3>
+            <p>Aqui va uno, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta porro. Tempora, placeat, mollitia ipsa saepe veniam laudantium facilis recusandae voluptatibus error facere voluptate expedita molestias praesentium qui animi soluta.</p>
+        </div>
+    </div>
+
+</body>
+</html>
